@@ -1,18 +1,24 @@
-<<<<<<< HEAD
-# Sample Hardhat Project
+Token ERC 20
+Nome: PROTOCOIN
+Simbolo: PRC
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+![image](https://github.com/user-attachments/assets/bebca204-77d6-4f3f-af65-29c9fcb205ea)
 
-Try running some of the following tasks:
+Contrato: ProtoCoin.sol
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
-=======
-# token-erc20-hardhat
-token-erc20-hardhat
->>>>>>> 5e5162e4dcf06a89dfe383562b63a467bc176ca7
+Compilar o contrato pelo hardhat:
+npm run compile
+
+Testes no contrato pelo hardhat:
+npm run teste
+![image](https://github.com/user-attachments/assets/4b7d3e2e-8501-4416-b8e3-9dc8d8cb6004)
+
+Iniciar o node local:
+npm run deploy:dev
+![image](https://github.com/user-attachments/assets/04abec9e-4484-43a9-8a8a-1ec2f0d8e8e9)
+
+com o hash acima, já deve conseguir importar o novo token: PRC
+
+
+
+
